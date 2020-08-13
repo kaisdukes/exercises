@@ -6,7 +6,7 @@ import java.util.Map;
 public class OddOccurrencesInArray {
 
     // Assuming that all but one of the values in A occurs an even number of times,
-    // find the unique value of element that occurs an odd number of times.
+    // find the unique value of the element that occurs an odd number of times.
     public static int oddOccurrenceInArray(final int[] array) {
 
         if (array == null || array.length == 0) {
