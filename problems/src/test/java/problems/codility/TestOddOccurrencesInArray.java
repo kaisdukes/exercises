@@ -12,7 +12,7 @@ import static problems.codility.OddOccurrencesInArray.oddOccurrenceInArray;
 public class TestOddOccurrencesInArray {
 
     @Rule
-    public ExpectedException expectedException = ExpectedException.none();
+    public final ExpectedException expectedException = ExpectedException.none();
 
     @Test
     public void shouldGetOddOccurrence() {

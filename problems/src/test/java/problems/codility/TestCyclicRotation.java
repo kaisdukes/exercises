@@ -12,7 +12,7 @@ import static problems.codility.CyclicRotation.rotateArray;
 public class TestCyclicRotation {
 
     @Rule
-    public ExpectedException expectedException = ExpectedException.none();
+    public final ExpectedException expectedException = ExpectedException.none();
 
     @Test
     public void shouldRotateArray() {

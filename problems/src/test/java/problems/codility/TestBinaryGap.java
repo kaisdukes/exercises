@@ -12,7 +12,7 @@ import static problems.codility.BinaryGap.longestBinaryGap;
 public class TestBinaryGap {
 
     @Rule
-    public ExpectedException expectedException = ExpectedException.none();
+    public final ExpectedException expectedException = ExpectedException.none();
 
     @Test
     public void shouldCalculateLongestBinaryGap() {
