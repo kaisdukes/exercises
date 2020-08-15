@@ -4,7 +4,7 @@ public class PermMissingElem {
 
     // An array A consisting of N different integers is given. The array contains integers
     // in the range 1 to N + 1, which means that exactly one element is missing. Write an
-    // efficient algorithm to find that missing element.
+    // efficient algorithm to find the missing element.
     public static int findMissingElement(final int[] array) {
 
         if (array == null) {
