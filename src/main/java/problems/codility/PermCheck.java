@@ -13,7 +13,7 @@ public class PermCheck {
         final int n = array.length;
         final boolean[] values = new boolean[n];
 
-        for (int e : array) {
+        for (final int e : array) {
             int index = e - 1;
             if (index < 0 || index >= n) {
                 return false;
