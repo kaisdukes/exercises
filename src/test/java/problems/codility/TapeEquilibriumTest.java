@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 import static problems.codility.TapeEquilibrium.findMinimalDifference;
 
-public class TestTapeEquilibrium {
+public class TapeEquilibriumTest {
 
     @Rule
     public final ExpectedException expectedException = ExpectedException.none();

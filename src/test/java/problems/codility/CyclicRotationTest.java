@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 import static problems.codility.CyclicRotation.rotateArray;
 
-public class TestCyclicRotation {
+public class CyclicRotationTest {
 
     @Rule
     public final ExpectedException expectedException = ExpectedException.none();

@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 import static problems.codility.FrogJmp.numberOfJumps;
 
-public class TestFrogJmp {
+public class FrogJmpTest {
 
     @Rule
     public final ExpectedException expectedException = ExpectedException.none();

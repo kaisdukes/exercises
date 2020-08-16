@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 import static problems.codility.PermMissingElem.findMissingElement;
 
-public class TestPermMissingElem {
+public class PermMissingElemTest {
 
     @Rule
     public final ExpectedException expectedException = ExpectedException.none();

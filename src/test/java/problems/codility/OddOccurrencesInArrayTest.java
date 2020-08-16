@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 import static problems.codility.OddOccurrencesInArray.oddOccurrenceInArray;
 
-public class TestOddOccurrencesInArray {
+public class OddOccurrencesInArrayTest {
 
     @Rule
     public final ExpectedException expectedException = ExpectedException.none();
