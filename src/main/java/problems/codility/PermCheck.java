@@ -10,7 +10,6 @@ public class PermCheck {
             throw new IllegalArgumentException("Array should not be null or empty.");
         }
 
-        // 0 = never seen, 1 = seen once, 2 = seen multiple times
         final int n = array.length;
         final boolean[] values = new boolean[n];
 
