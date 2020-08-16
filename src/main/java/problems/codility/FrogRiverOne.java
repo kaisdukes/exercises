@@ -26,7 +26,7 @@ public class FrogRiverOne {
         final boolean[] hasLeaf = new boolean[x];
         int leaves = 0;
         for (int t = 0; t < a.length; t++) {
-            int index = a[t] - 1;
+            final int index = a[t] - 1;
             if (!hasLeaf[index]) {
                 if (++leaves == x) {
                     return t;
