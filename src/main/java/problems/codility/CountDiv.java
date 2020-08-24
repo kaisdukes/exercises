@@ -7,7 +7,7 @@ public class CountDiv {
     public static int countDiv(final int a, final int b, final int k) {
 
         if (a > b) {
-            throw new IllegalArgumentException("a should be >= b");
+            throw new IllegalArgumentException("a should be <= b");
         }
 
         if (k < 1) {
